@@ -1,0 +1,14 @@
+
+body{
+background-color: #66BFBF;
+}
+.hori{
+    border-style: dotted;
+    border-bottom-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    border-color: "beige";
+    width:100px;
+    height:70%;
+    
+}

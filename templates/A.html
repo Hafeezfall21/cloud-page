@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hafeezfn620</title>
+    <link rel="stylesheet" href="../static/B.css">
+  </head>
+
+  <body>
+    <center>    <img src="../static/csu1.png" alt="No image found!">
+    </center>
+    <center><h1><strong><em>PROJECT MAKER - HAFEEZ UDDIN</em></strong></h1></center>
+    <center><h3><strong>CSUID: 2822620 </strong></h3></center>
+    <center><h2>Professor. Weidong Xiong</h2></center>
+    <center><h2>⭐Comparative Programming Language⭐</h2></center>
+    <center><strong><em><h2>Cleveland State University</h2></em></strong></center>
+    <hr class="hori">
+   
+   <form action="/fun" method="post">
+    <center>
+      <select name="selectedfile" id="selectedfile">
+      {% for each in files %}
+        <option value="{{each}}">{{each}}</option>
+      {% endfor %}
+    </select>
+  </center>
+      <center> 
+        <a href="/">
+          <button>
+            Click this button to CALCULATE
+          </button>
+        </a>
+    </center>
+  
+   </form>
+  <br>
+  <br>
+  
+  </body>
+</html>
